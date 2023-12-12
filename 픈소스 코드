@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 타임 키퍼: 편리한 대학 관련 웹사이트로 이동 및 문의하기 어플</title>
+</head>
+<body>
+
+<!-- LMS로 이동 버튼 -->
+<button id="lmsButton">LMS로 이동</button>
+
+<!-- EIS로 이동 버튼 -->
+<button id="eisButton">EIS로 이동</button>
+
+<!-- 대학 웹사이트로 이동 버튼 -->
+<button id="chungbukButton">대학 웹사이트로 이동</button>
+
+<!-- CIEAT로 이동 버튼 -->
+<button id="cieatButton">CIEAT로 이동</button>
+
+<!-- Everytime으로 이동 버튼 -->
+<button id="everytimeButton">Everytime으로 이동</button>
+
+<!-- 문의하기 버튼 -->
+<button id="contactButton">문의하기</button>
+
+<script>
+// LMS 버튼 클릭 이벤트 핸들러
+document.getElementById('lmsButton').addEventListener('click', function() {
+    window.location.href = 'http://lms.chungbuk.ac.kr/';
+});
+
+// EIS 버튼 클릭 이벤트 핸들러
+document.getElementById('eisButton').addEventListener('click', function() {
+    window.location.href = 'http://eis.chungbuk.ac.kr/';
+});
+
+// 대학 웹사이트 버튼 클릭 이벤트 핸들러
+document.getElementById('chungbukButton').addEventListener('click', function() {
+    window.location.href = 'http://chungbuk.ac.kr/';
+});
+
+// CIEAT 버튼 클릭 이벤트 핸들러
+document.getElementById('cieatButton').addEventListener('click', function() {
+    window.location.href = 'http://cieat.chungbuk.ac.kr/';
+});
+
+// Everytime 버튼 클릭 이벤트 핸들러
+document.getElementById('everytimeButton').addEventListener('click', function() {
+    window.location.href = 'http://everytime.kr/';
+});
+
+document.getElementById('contactButton').addEventListener('click', function() {
+    window.location.href = 'tel:01046869264'; // 내 전화번호
+});
+</script>
+
+</body>
+</html>
